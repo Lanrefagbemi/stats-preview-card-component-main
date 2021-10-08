@@ -16,6 +16,8 @@ div.container {
 }
 div.intro h1 {
     font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     color: hsl(0, 0%, 100%);
     /* border: 1px solid white; */
     width: 100%;
@@ -103,31 +105,32 @@ div.stat_details {
     }
     div.intro {
         /* border: 1px solid white; */
-        width: 80%;
+        width: 70%;
         margin: auto;
         padding-top: 4em;
     }
     div.intro h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: justify;
     }
     p {
-        font-size:1.5rem;
+        font-size:1.1rem;
+        font-family: 'Lexend Deca', sans-serif;
         text-align: justify;
     }
     div.stats {
         display: flex;
         /* border: 1px solid white; */
-        width: 85%;
+        width: 70%;
         justify-content: space-between;
         margin: auto;
         padding-bottom: 2em;
     }
     .stat_head {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .stat_body {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     div.image_content {
@@ -144,7 +147,7 @@ div.stat_details {
     }
 
     body {
-        padding: 13em 0em;
+        padding: 10em 0em;
     }
     
     div.text_content {
